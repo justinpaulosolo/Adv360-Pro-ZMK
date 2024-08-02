@@ -55,11 +55,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL                &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &tog 1                                                                                        &mo 3          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB                  &kp Q      &kp W   &kp E     &kp R      &kp T   &none                                                                                         &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&mt LEFT_CONTROL ESCAPE  &kp A      &kp S   &kp D     &lt 1 F    &kp G   &none        &kp LS(LA(LC(LCTRL)))  &kp LALT                &kp LGUI               &kp RCTRL  &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &mt RIGHT_CONTROL SQT
-&kp LSHFT                &kp Z      &kp X   &kp C     &kp V      &kp B                                       &kp LA(LEFT_SHIFT)      &kp PG_UP                                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2                    &kp GRAVE  &trans  &kp LEFT  &kp RIGHT          &lt 2 SPACE  &kp ENTER              &kp LEFT_ALT            &kp RS(RA(RC(PG_DN)))  &kp RGUI   &kp BACKSPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL                &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &tog 1                                                                                            &mo 3          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB                  &kp Q      &kp W   &kp E     &kp R      &kp T   &none                                                                                             &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&mt LEFT_CONTROL ESCAPE  &kp A      &kp S   &kp D     &lt 1 F    &kp G   &none        &kp LS(LA(LG(LCTRL)))  &kp LALT                &kp LGUI                   &kp RCTRL  &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &mt RIGHT_CONTROL SQT
+&kp LSHFT                &kp Z      &kp X   &kp C     &kp V      &kp B                                       &kp LA(LEFT_SHIFT)      &kp PG_UP                                            &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2                    &kp GRAVE  &trans  &kp LEFT  &kp RIGHT          &lt 2 SPACE  &kp ENTER              &kp LEFT_ALT            &kp RS(RA(RIGHT_CONTROL))  &kp RGUI   &kp BACKSPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
